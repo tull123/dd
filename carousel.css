@@ -1,0 +1,103 @@
+body{background-image: url(dr/green.gif);
+background-repeat:no-repeat;
+background-size:100% 100%; 
+background-attachment:fixed; 
+    }
+
+
+select{background-image: url(dr/green.gif)}
+@keyframes my-animation {
+    0% { left:2000px; top:70px; }
+      
+    100% { left:0px; top:70px; }
+      }
+h1 {
+    width:570px;
+    height:60px;
+    color:blue;
+    background-color:yellow;
+    position:absolute;
+    animation-name:my-animation;
+    animation-duration:2s;
+          
+    text-shadow:2px 2px 2px navy;
+    margin:30px;
+    text-shadow: black 10px 10px 10px;
+    background-color: yellow;
+	  }	 
+
+
+
+#bigtitle1{
+    
+}
+div.title12{
+    background-color: yellow;
+    background: linear-gradient(to top right,yellow,White); 
+}
+mark.PCM1{background-color: #FFC0CB;
+          background: linear-gradient(to top right,#FFC0CB,White);
+}
+mark.PCM2{background-color: #FFA500;
+          background: linear-gradient(to top right,#FFA500,White);
+}
+li.text1{list-style-image:url(dr/bsquare.jpg)}
+
+h1 {color: blue;font-style: oblique}
+h3 {color: red;font-style: italic}
+th {background-color: aqua}
+td {background-color: aliceblue}
+
+#code1{background: linear-gradient(to top right,DarkGray,White)}
+
+p.text3{
+    background-color: lightcyan;
+    width:400px ; height:200px ;
+    border: solid green;
+    padding: 30px;
+    overflow-y: scroll;          
+}
+
+
+#img1{
+    border-style: outset;
+    border-width: 10px;
+    border-color: greenyellow;
+}
+#img2{
+    border:soild 5px green; 
+    border-radius: 20px 50px; 
+    border-width: 10px;
+    border-color: greenyellow;
+}
+#img3{
+    margin:50px;
+    padding:10px;
+    text-indent:32px;
+    text-align:justify;
+    border:50px solid; 
+    border-image-source:url(dr/borderfig.jpg);
+    border-image-slice:50;      
+}
+
+div.title13{
+    margin:30px;
+    border:3px solid;
+    padding:15px;
+    width:400px;
+    height:80px;background-color:yellow;
+    box-shadow: green 5px 5px,blue 10px 10px 10px,red 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+#footer{
+    background-color: whitesmoke;
+    width:2000px;
+    height: 50px;
+}
+
+p.atop{
+    width: 70px;
+    background-color: yellow;
+    background: linear-gradient(to top right,yellow,White);
+}
