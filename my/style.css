@@ -1,0 +1,39 @@
+body{
+margin: 0px;
+background-color: #eeeeee;
+}
+
+.head{
+      background-color: #003344;
+color: white;
+font-weight: bold; 
+font size:30px; 
+text-align: center;
+padding: 10px;
+    }
+.content{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.box{
+width:280px;
+padding: 10px;
+margin: 10px;
+background-color: white;
+display:inline-block;
+vertical-align: top;
+}
+
+.title{font-weight: bold;}
+.box{
+	width: 280px;
+padding: 10px;
+margin: 10px;
+background-color: white;
+display: inline-block;
+vertical-align: top;
+text-align: center;
+}

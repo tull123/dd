@@ -11,7 +11,13 @@ select{background-image: url(dr/green.gif)}
       
     100% { left:0px; top:70px; }
       }
-h1 {
+
+#XP01{}
+
+
+
+
+#bigtitle1{
     width:570px;
     height:60px;
     color:blue;
@@ -24,22 +30,17 @@ h1 {
     margin:30px;
     text-shadow: black 10px 10px 10px;
     background-color: yellow;
-	  }	 
-
-
-
-#bigtitle1{
-    
 }
 div.title12{
+    width: 400px;
     background-color: yellow;
-    background: linear-gradient(to top right,yellow,White); 
+    background: linear-gradient(to top right,yellow,white); 
 }
 mark.PCM1{background-color: #FFC0CB;
-          background: linear-gradient(to top right,#FFC0CB,White);
+          background: linear-gradient(to top right,#FFC0CB,white);
 }
 mark.PCM2{background-color: #FFA500;
-          background: linear-gradient(to top right,#FFA500,White);
+          background: linear-gradient(to top right,#FFA500,white);
 }
 li.text1{list-style-image:url(dr/bsquare.jpg)}
 
@@ -48,7 +49,7 @@ h3 {color: red;font-style: italic}
 th {background-color: aqua}
 td {background-color: aliceblue}
 
-#code1{background: linear-gradient(to top right,DarkGray,White)}
+#code1{background: linear-gradient(to top right,darkgray,white);width: 1600px}
 
 p.text3{
     background-color: lightcyan;
@@ -81,13 +82,12 @@ p.text3{
 }
 
 div.title13{
-    margin:30px;
-    border:3px solid;
+    margin:20px;
     padding:15px;
     width:400px;
     height:80px;background-color:yellow;
     box-shadow: green 5px 5px,blue 10px 10px 10px,red 20px 20px 20px;
-    box-sizing: border-box;
+    
 }
 
 #footer{
@@ -99,5 +99,170 @@ div.title13{
 p.atop{
     width: 70px;
     background-color: yellow;
-    background: linear-gradient(to top right,yellow,White);
+    background: linear-gradient(to top right,yellow,white);
+}
+
+
+.aa22{
+width: 500px;    
+background :white;
+border: 0 0 400px 0;
+
+}
+
+.KKK{
+background:white;
+border-style: solid;
+border-color: red;
+width: 350px;
+height: 570px;
+position: relative;
+top:-400px;
+left:1000px 
+
+}
+
+
+
+.A1{
+background: yellow;
+border-style:solid;
+border-color:black;
+width: 345px;
+height: 30px;
+text-align: center;
+}
+
+.A2{
+width: 150px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:20px;
+left:20px;
+text-align: center;
+}
+.A3{
+width: 345px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:40px;
+text-align: center;
+}
+.A4{
+width: 150px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:60px;
+text-align: center;
+}
+.A5{
+width: 150px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:30px;
+left:195px;
+text-align: center;
+}
+.A6{
+width: 150px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:60px;
+text-align: center;
+}
+.A7{
+width: 150px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:80px;
+text-align: center;
+}
+.A8{
+width: 150px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:100px;
+text-align: center;
+}
+.A9{
+width: 250px;
+height: 100px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:120px;
+text-align: center;
+
+}
+.A91{
+    line-height:90px
+}
+
+
+.A10{
+width: 150px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:145px;
+text-align: center;
+
+}
+
+.A11{
+width: 150px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:115px;
+text-align: center;
+left:195px;
+}
+
+.A12{
+width: 345px;
+height: 30px;
+border-style:solid;
+border-color:black;
+background: yellow;
+position:relative;
+top:135px;
+text-align: center;
+
+}
+
+
+
+
+.dd22{
+position: relative;
+top:-570px;
+
+
 }

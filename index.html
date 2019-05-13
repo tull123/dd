@@ -13,10 +13,37 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
     
-      
+   <script> 
+   function colorBlue( ) {
+      document.getElementById("XP1").style.color = "blue";  
+   }	
+   function colorRed( ) {
+      document.getElementById("XP1").style.color = "red";  
+   }
+   function colorBlack( ) {
+      document.getElementById("XP1").style.color = "black";  
+   }   
+
+   </script> 
+ <!-- AJAX -->
+    <script type="text/javascript"> 
+  function getData(pageName){
+  var req = new XMLHttpRequest();  
+  req.open("get" , "http://127.0.0.1/"+pageName);
+  req.onload=function(){
+    var content=document.getElementById("content");
+    content.innerHTML=this.responseText;
+  }
+  req.send();
+  }
+   </script>
+
+
+
   </head>
     
 <body>
+
 <main role="main">
 
     
@@ -31,13 +58,28 @@
 </button>
        
     <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a class="nav-link" href="randomselect.html"><span class="A">隨機數 </span></a></li>
-        <li class="nav-item"><a class="nav-link" href="rpg.html">         <span class="A">RPG遊戲</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="day.html">         <span class="A">日期   </span></a></li>
-        <li class="nav-item"><a class="nav-link" href="love.html">        <span class="A">心理測驗</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="music.html">       <span class="A">影片   </span></a></li>
-        <li class="nav-item"><a class="nav-link" href="smart.html">       <span class="A">自動開關</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="math.html">        <span class="A">擲茭   </span></a></li>
+       <li class="nav-item">
+              <a class="nav-link" href="randomselect.html">隨機數</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rpg.html">RPG遊戲</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="day.html">日期</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="love.html">心理測驗</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="music.html">影片</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="my.html">自我介紹</a>
+            </li>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="RWD.html">RWD</a>
+            </li>
     </ul>
     
 </nav>
@@ -63,21 +105,32 @@
 </ul> <br/>
 
 <!--標題3:網路攝影機簡介-->   
+<div class="row">
+  
+  <div class="col-md-3">
 <div style="color: red;" class="title12">
    <pre><h3><b> 網路攝影機簡介 :</b></h3></pre>
 </div>
-    
-<div class="XP1">
-<ol type="I" >
+      
+<div id="XP01">      
+  <button onclick="colorBlue( )">Blue</button>
+  <button onclick="colorRed( )">Red</button>
+  <button onclick="colorBlack( )">Default</button> 
+ 
+  <div id="XP1">
+      <br/> 
+  <ol type="I" >
     <li class="text2"><b>專為Win XP/VISTA/7所設計</b></li><br/>
     <li class="text2"><b>採用高級五層玻璃鏡頭      </b></li><br/>
     <li class="text2"><b>即插即用，不需安裝驅動程式 </b></li><br/>
     <li class="text2"><b>內建高感度麥克風收音      </b></li><br/>
     <li class="text2"><b>可調式高亮度 LED燈       </b></li><br/>
-</ol> <br />
+  </ol> <br />
+  </div>
 </div>
-
+</div>
 <!--表格-->  
+<div class="col-md-9">
 <table border="1" >
    <thead>
       <tr><th>應用</th><th>敘述</th></tr>
@@ -93,27 +146,66 @@
       <tr><td colspan="3">製作日期2019年1月1日</td></tr>
    </tfoot>
 </table>
-     
-       
- 
-<br /><br /><br /><br />
-          
-    
-<!--步驟1-->    
-<div class="title13">
-   <h2 ><font face="font-family"><b>步驟1>攝影機連接樹莓派</b></font></h2>
 </div>
+</div>
+
+     
+<br /><br /><br /><br />
+         
+<div>
+<span onclick="getData(AJAX1.html);">AJAX1</span>
+<span onclick="getData(AJAX2.html);">AJAX2</span>
+</div>
+<div id="content"></div>
+  
+<!--步驟1-->    
+
+
+
+   <div class="title13"><h2><font face="font-family"><b>步驟1>攝影機連接樹莓派</b></font></h2></div>
    <b>攝影機連接樹莓派，在樹莓派輸入指令"sudo apt-get install fswebcam,安裝fswebcam工具，以便往後的執行 </b><br /> 
    <img src="dr/1111.jpg" alt="Generic placeholder image" width="300" height="300" id="img1">
 
-<!--步驟2-->         
+ 
+   <div class="KKK">
+      <div class="A1"><div class="col-md-12">導航欄</div></div>
+<div class="A2"><b>標題</b></div>
+<div class="A3"><b>使用設備</b></div>
+
+<div class="A4"><b>簡介</b></div>
+<div class="A5"><b>表格</b></div>
+
+<div class="A6"><b>步驟1</b></div>
+<div class="A7"><b>步驟2</b></div>
+<div class="A8"><b>步驟3</b></div>
+<div class="A9"><b class="A91">程式碼</b></div>
+<div class="A10"><b>測試成果</b></div>
+<div class="A11"><b>測試影片</b></div>
+<div class="A12"><b>頁尾</b></div>
+
+
+
+
+
+
+   </div>
+
+
+<!--步驟2-->  
+
+<div class="dd22">     
 <div class="title13">   
     <h2 class="level"><font face="font-family"><b>步驟2>下載分類器</b></font></h2>
 </div> 
     <b>樹莓派下新建一個資料夾取名為img,下載haarcascade_eye.xml及haarcascade_frontalface_default.xml,放進img資料夾內</b><br /> 
     <img  src="dr/2222.png" alt="Generic placeholder image" width="400" height="300" id="img2">
-   
+
+
+
+
+
 <!--步驟3-->      
+
 <div class="title13">
     <h2 class="level"><font face="font-family"><b>步驟3>撰寫程式碼</b></font></h2>
 </div>
@@ -122,6 +214,8 @@
 
     
     <br /><br />   
+
+
 
 <!--程式碼-->   
    <div style="color:red;"class="title12"><h2><b>程式碼 :</b></h2></div>
@@ -168,7 +262,7 @@
 
     
 <div class="row featurette">
-    <div class="col-md-7">
+    <div class="col-md-5">
         <div style="color:red;"class="title12">
             <h2 class="featurette-heading"><b>測試成果</b></h2>
         </div>
@@ -192,11 +286,11 @@
        
 
 <!-- FOOTER -->
-<footer class="container" id="footer">    
+<footer  id="footer">    
     <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </footer>
     
-    
+</div>    
 </main>
 
     <!-- Bootstrap core JavaScript
